@@ -37,3 +37,6 @@ API Rest de cadastro de hóspedes e registro de check-in
 <p>Para gerar um arquivo <strong>*.jar</strong> e executá-lo exterior à IDE, importe o projeto no <strong>Sprint Tool Suíte</strong>, clique com o botão direito sobre ele, selecione a opção <strong>Run as</strong> e, depois, <strong>Maven build...</strong>. Na janela que ser abrirá, no campo <strong>Goals</strong>, informe <strong>package</strong> e, finalmente, clique no botão <strong>Run</strong>.</p>
 <p>Aguarde o processo de criação; o arquivo será gerado na pasta target, dentro do projeto.</p>
 <p>Para executar o arquivo, basta clicá-lo duas vezes e realizar as requisições via Postma ou via browser</p>
+
+<h2>CONSIDERAÇÕES</h2>
+<p>Este projeto foi configurado para uso do banco <strong>PostgreSQL</strong>. Atualize o arquivo <strong>application.properties</strong> conforme o seu SGBD/credenciais. As tabelas serão criadas automaticamente através do framework de migração <strong>FlyWay</strong></p>
