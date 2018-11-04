@@ -39,4 +39,4 @@ API Rest de cadastro de hóspedes e registro de check-in
 <p>Para executar o arquivo, basta clicá-lo duas vezes e realizar as requisições via Postma ou via browser</p>
 
 <h2>CONSIDERAÇÕES</h2>
-<p>Este projeto foi configurado para uso do banco <strong>PostgreSQL</strong>. Atualize o arquivo <strong>application.properties</strong> conforme o seu SGBD/credenciais. As tabelas serão criadas automaticamente através do framework de migração <strong>FlyWay</strong></p>
+<p>Este projeto foi configurado para uso do banco <strong>PostgreSQL</strong>. Atualize o arquivo <strong>application.properties</strong> conforme o seu SGBD/credenciais, bem como os scripts de migração do framework <strong>FlyWay</strong>, que criarão as tabelas automaticamente (localizados em <strong>/src/main/resources/db/migration</strong>)</p>
